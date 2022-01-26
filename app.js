@@ -1,6 +1,6 @@
     function downloadImage(){
     var input = document.getElementById("data").value;
-    var name = "aaabvbv"
+    var name = "chaiqr"
     var url = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+input
       fetch(url)
         .then(resp => resp.blob())
